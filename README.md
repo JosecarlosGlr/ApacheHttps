@@ -1,12 +1,11 @@
 # ApacheHttps
 ### José Carlos Goméz-Lobo Ramírez
 
-
-    ## 1 Investigación
+## 1 Investigación
         Explicar el funcionamiento del protocolo HTTPS y su importancia en la seguridad web.
         Describir los tipos de certificados SSL/TLS (autofirmado vs. CA confiable).
         Identificar los módulos de Apache2 necesarios para habilitar SSL/TLS en Ubuntu.
-    2 Ejecución técnica:
+## 2 Ejecución técnica:
         Instalar y verificar el estado de Apache2 en Ubuntu.
         Habilitar los módulos SSL y headers.
         Generar un certificado SSL/TLS:
@@ -15,7 +14,7 @@
         Configurar un VirtualHost para escuchar en el puerto 443 usando HTTPS.
         Adaptar las directivas necesarias para redirección HTTP → HTTPS (opcional pero recomendado).
         Reiniciar/recargar Apache y validar la correcta implementación mediante navegador o curl.
-    3 Entrega final:
+## 3 Entrega final:
         Un documento estilo memoria en markdown con:
         Resumen de la investigación teórica.
         Descripción paso a paso de la implementación.
