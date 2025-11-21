@@ -15,31 +15,34 @@ Para habilitar SSL/TLS en Ubuntu, el módulo principal de Apache2 que necesita e
 
 ## 2 Ejecución técnica:
 
-[Verificación estado apache2](https://github.com/JosecarlosGlr/ApacheHttps/blob/main/1.png)  
+![Verificación estado apache2](https://github.com/JosecarlosGlr/ApacheHttps/blob/main/1.png)  
 Primero verificamos el estado de Apache2
 
 
-[Habilitar los módulos SSL y headers](https://github.com/JosecarlosGlr/ApacheHttps/blob/main/2.png)  
+![Habilitar los módulos SSL y headers](https://github.com/JosecarlosGlr/ApacheHttps/blob/main/2.png)  
 Habilito los módulos SSL y headers y recargo apache
 
 
-[Genero certidicado ssl/tls](https://github.com/JosecarlosGlr/ApacheHttps/blob/main/3.png)
-[Genero certidicado ssl/tls](https://github.com/JosecarlosGlr/ApacheHttps/blob/main/4.png)  
+![Genero certidicado ssl/tls](https://github.com/JosecarlosGlr/ApacheHttps/blob/main/3.png)
+![Genero certidicado ssl/tls](https://github.com/JosecarlosGlr/ApacheHttps/blob/main/4.png)  
 
 Genero un certificado SSL/TLS:
 Certificado autofirmado.
 
-[Configuro un VirtualHost](https://github.com/JosecarlosGlr/ApacheHttps/blob/main/5.png)
-[Configuro un VirtualHost](https://github.com/JosecarlosGlr/ApacheHttps/blob/main/6.png)  
+![Configuro un VirtualHost](https://github.com/JosecarlosGlr/ApacheHttps/blob/main/5.png)
+![Configuro un VirtualHost](https://github.com/JosecarlosGlr/ApacheHttps/blob/main/6.png)  
 Configuro un VirtualHost para escuchar en el puerto 443 usando HTTPS.
 
-[Configuro un VirtualHost](https://github.com/JosecarlosGlr/ApacheHttps/blob/main/7.png)
-[Configuro un VirtualHost](https://github.com/JosecarlosGlr/ApacheHttps/blob/main/8.png)  
+![Configuro un VirtualHost](https://github.com/JosecarlosGlr/ApacheHttps/blob/main/7.png)
+![Configuro un VirtualHost](https://github.com/JosecarlosGlr/ApacheHttps/blob/main/8.png)  
 Adapto las directivas necesarias para redirección HTTP → HTTPS.
 
-[Configuro un VirtualHost](https://github.com/JosecarlosGlr/ApacheHttps/blob/main/9.png)   
+![Configuro un VirtualHost](https://github.com/JosecarlosGlr/ApacheHttps/blob/main/9.png)   
 Reinicio apache para comprobar que funciona lo que he hecho
-
+![Configuro un VirtualHost](https://github.com/JosecarlosGlr/ApacheHttps/blob/main/12.png)
+![Configuro un VirtualHost](https://github.com/JosecarlosGlr/ApacheHttps/blob/main/13.png)
+![Configuro un VirtualHost](https://github.com/JosecarlosGlr/ApacheHttps/blob/main/14.png)  
+Lo que ocurre cuando ahora entro a https://gci.example y http://gci.example
 
 ## Conclusiones
 
