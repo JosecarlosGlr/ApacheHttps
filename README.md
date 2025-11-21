@@ -2,7 +2,7 @@
 ### José Carlos Goméz-Lobo Ramírez
 
 
-    1 Investigación:
+    ## 1 Investigación
         Explicar el funcionamiento del protocolo HTTPS y su importancia en la seguridad web.
         Describir los tipos de certificados SSL/TLS (autofirmado vs. CA confiable).
         Identificar los módulos de Apache2 necesarios para habilitar SSL/TLS en Ubuntu.
