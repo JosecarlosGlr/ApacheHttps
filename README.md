@@ -2,9 +2,17 @@
 ### José Carlos Goméz-Lobo Ramírez
 
 ## 1 Investigación
-        Explicar el funcionamiento del protocolo HTTPS y su importancia en la seguridad web.
-        Describir los tipos de certificados SSL/TLS (autofirmado vs. CA confiable).
-        Identificar los módulos de Apache2 necesarios para habilitar SSL/TLS en Ubuntu.
+HTTPS funciona añadiendo una capa de cifrado (TLS/SSL) sobre el protocolo HTTP, asegurando la comunicación entre un navegador y un servidor web. Utiliza un certificado digital para verificar la identidad del servidor y un sistema de claves pública y privada para cifrar y descifrar los datos, protegiendo la información de interceptaciones y manipulaciones.
+
+Los certificados SSL/TLS se dividen principalmente en autofirmados, que son creados y firmados por el propio solicitante, y los emitidos por una Autoridad de Certificación (CA) confiable, que son validados y firmados por un tercero de confianza. 
+
+Los autofirmados son adecuados para entornos internos de desarrollo y pruebas, ya que el cifrado es básico pero no ofrecen autenticación y generan advertencias de seguridad en navegadores externos. 
+
+Los certificados de CA son necesarios para sitios web públicos porque proporcionan autenticación, evitan las advertencias del navegador y garantizan la identidad del sitio a los usuarios.
+
+Para habilitar SSL/TLS en Ubuntu, el módulo principal de Apache2 que necesita es mod_ssl. Se activa ejecutando el comando sudo a2enmod ssl en la terminal, seguido del reinicio del servicio de Apache con sudo systemctl restart apache2.
+
+
 ## 2 Ejecución técnica:
         Instalar y verificar el estado de Apache2 en Ubuntu.
         Habilitar los módulos SSL y headers.
