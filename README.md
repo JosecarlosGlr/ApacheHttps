@@ -53,5 +53,8 @@ La configuración de HTTPS en Apache me permitió entender mejor cómo se proteg
 [Tipos de certificados SSL/TLS](https://kinsta.com/es/blog/tls-vs-ssl/)  
 
 
-## Dificultades encontradas
+## Dificultades encontradas  
 
+-Tuve problemas al habilitar los módulos de Apache porque no se activaban correctamente y el servicio me daba errores al reiniciarlo.  
+-Me costó generar y configurar el certificado SSL/TLS, sobre todo al asegurarme de que Apache lo reconociera y usara las rutas correctas.  
+-Al crear el VirtualHost para el puerto 443, tuve confusión con algunas directivas y eso provocó fallos hasta que ajusté bien la configuración.  
