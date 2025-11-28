@@ -49,8 +49,9 @@ Lo que ocurre cuando ahora entro a https://gci.example y http://gci.example
 
 
 ## Bibliografía
-[¿Que es el protocolo https](https://www.cloudflare.com/es-es/learning/ssl/what-is-https/)
-[Tipos de certificados SSL/TLS](https://kinsta.com/es/blog/tls-vs-ssl/)
+[¿Que es el protocolo https](https://www.cloudflare.com/es-es/learning/ssl/what-is-https/)  
+[Tipos de certificados SSL/TLS](https://kinsta.com/es/blog/tls-vs-ssl/)  
 
 
 ## Dificultades encontradas
+
