@@ -44,8 +44,8 @@ Reinicio apache para comprobar que funciona lo que he hecho
 ![Configuro un VirtualHost](https://github.com/JosecarlosGlr/ApacheHttps/blob/main/14.png)  
 Lo que ocurre cuando ahora entro a https://gci.example y http://gci.example
 
-## Conclusiones
-La configuración de HTTPS en Apache me permitió entender mejor cómo se protege la comunicación entre el servidor y el usuario. Al trabajar con certificados SSL/TLS, tanto autofirmados como de Let’s Encrypt, pude ver la importancia de asegurar el tráfico web. También aprendí a habilitar los módulos necesarios, crear el VirtualHost en el puerto 443 y comprobar su funcionamiento. En general, el proceso me ayudó a comprender mejor cómo implementar y mantener un servidor web seguro.  
+## Conclusiones  
+La configuración de HTTPS en Apache me permitió entender mejor cómo se protege la comunicación entre el servidor y el usuario. Al trabajar con certificados SSL/TLS pude ver la importancia de asegurar el tráfico web. También aprendí a habilitar los módulos necesarios, crear el VirtualHost en el puerto 443 y comprobar su funcionamiento. En general, el proceso me ayudó a comprender mejor cómo implementar y mantener un servidor web seguro.  
 
 
 ## Bibliografía
