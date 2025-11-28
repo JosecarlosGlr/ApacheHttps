@@ -50,7 +50,6 @@ Lo que ocurre cuando ahora entro a https://gci.example y http://gci.example
 
 ## Bibliografía
 
-[Chuletario md](https://markdownlivepreview.com/?authuser=0)
-[Pdf introducción a GitHub](https://github.com/JosecarlosGlr/Practica-GitHub-MarkDown/blob/main/GitHub_%20Introducci%C3%B3n.pdf)
+
 
 ## Dificultades encontradas
